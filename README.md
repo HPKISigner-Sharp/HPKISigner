@@ -23,13 +23,13 @@ ES フォーマットの電子署名付き処方箋を作成するツール。
 
 ## ダウンロートオプション
 ### ランタイムなしバージョン (サイズ小)
-  - ファイル名: HPKISigner-framework-dependent.zip
-  - サイズ: ~5 MB
+  - ファイル名: HPKISigner-framework-dependent.exe
+  - サイズ: ~6 MB
   - 要件: 事前に [.NET 8.0 Runtime or heigher](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) インストール必須
 
 ### ランタイム入りバージョン (サイズ大)
-  - ファイル名: HPKISigner-self-contained-win-x64.zip
-  - サイズ: ~50 MB
+  - ファイル名: HPKISigner-self-contained-win-x64.exe
+  - サイズ: ~70 MB
   - 要件: 全ライブラリ、.NET runtime を内包、追加インストール不要。
 
 Download the executable file from the [Releases](https://github.com/HPKISigner-Sharp/HPKISigner/releases) page.
