@@ -36,7 +36,7 @@ Download the executable file from the [Releases](https://github.com/HPKISigner-S
 
 ## 使用方法
 1. 上記のどちらかをダウンロードする。
-2. 解凍する。
+2. HPKISigner.exe にリネームする。
 3. コマンドプロンプトを開いて
 ```cmd
 HPKISigner.exe InputCSVFilePath OutputXMLPath PIN
