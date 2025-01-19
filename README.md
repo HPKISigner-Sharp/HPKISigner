@@ -21,23 +21,20 @@ ES フォーマットの電子署名付き処方箋を作成するツール。
 - Linux (x64)
 - macOS (x64 and arm64)
 
-## ダウンロートオプション
+## オプション
 ### ランタイムなしバージョン (サイズ小)
-  - ファイル名: HPKISigner-framework-dependent.exe
+  - ファイル名: HPKISigner.exe
   - サイズ: ~6 MB
   - 要件: 事前に [.NET 8.0 Runtime or heigher](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) インストール必須
 
 ### ランタイム入りバージョン (サイズ大)
-  - ファイル名: HPKISigner-self-contained-win-x64.exe
+  - ファイル名: HPKISigner-Large.exe
   - サイズ: ~70 MB
   - 要件: 全ライブラリ、.NET runtime を内包、追加インストール不要。
 
-Download the executable file from the [Releases](https://github.com/HPKISigner-Sharp/HPKISigner/releases) page.
-
 ## 使用方法
-1. 上記のどちらかをダウンロードする。
-2. HPKISigner.exe にリネームする。
-3. コマンドプロンプトを開いて
+1. https://github.com/HPKISigner-Sharp/HPKISigner/releases から、HPKISigner.zip をダウンロードして解凍する。
+2. コマンドプロンプトを開いて
 ```cmd
 HPKISigner.exe InputCSVFilePath OutputXMLPath PIN
 ```
