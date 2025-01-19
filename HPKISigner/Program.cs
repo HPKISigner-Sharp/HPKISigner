@@ -226,6 +226,10 @@ namespace HPKISigner
                         new XElement(
                             xades + "SignedSignatureProperties",
                             new XElement(
+                                xades + "SigningTime", TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow,
+                                    TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time"))
+                                    .ToString("yyyy-MM-ddTHH:mm:sszzz")),
+                            new XElement(
                                 xades + "SigningCertificateV2",
                                 new XElement(
                                     xades + "Cert",
